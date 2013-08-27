@@ -12,11 +12,11 @@ La classica e richiestissima cascata regione-provincia-comune per la prima volta
 
 == Description ==
 
-Con questo plugin è possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione/provincia/comune`.
+Con questo plugin &egrave; possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione/provincia/comune`.
 
-Il plugin si basa sul concatemanento di select detto anche select a cascata e consiste nel fornire all’utente la possibilità di trovare un comune specifico attraverso alcuni passaggi: in pratica scegliendo una regione nella prima select, la seconda verrà popolata con i dati relativi alle province della regione scelta e così via.
+Il plugin si basa sul concatemanento di select detto anche select a cascata e consiste nel fornire all&#180;utente la possibilit&agrave; di trovare un comune specifico attraverso alcuni passaggi: in pratica scegliendo una regione nella prima select, la seconda verr&agrave; popolata con i dati relativi alle province della regione scelta e cos&igrave; via.
 
-**Come si usa?** L'uso è molto semplice:
+**Come si usa?** L'uso &egrave; molto semplice:
 *Potete utilizzare lo shortcode:
 
 `[paky_regioneprovinciacomune]`
@@ -29,7 +29,7 @@ nel form che state costruendo nell'articolo o nella pagina;
 
 nel vostro template file;
 
-*oppure, ancora più comodo e funzionale, nel plugin Contact Form 7:
+*oppure, ancora pi&ugrave; comodo e funzionale, nel plugin Contact Form 7:
 
 nel form che state costruendo, generate il tag -Regione Povincia Comune- da Genera tag, aggiungetevi, se volete, una classe css, copiate e incollate il codice nel modulo alla sinistra.
 
