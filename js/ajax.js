@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
     var scegli = '<option value="0">Scegli...</option>';
 		var attendere = '<option value="0">Attendere...</option>';
+		var provincia_testo = '';
 		
 		$("select#province").html(scegli);
 		$("select#province").attr("disabled", "disabled");
@@ -24,7 +25,7 @@ jQuery(document).ready(function($) {
 
         $("select#province").change(function(){
 			var provincia = $("select#province option:selected").attr('value');
-            var provincia_testo=$("select#province option:selected").text();
+            provincia_testo=$("select#province option:selected").text();
             $("select#province option:selected").attr('value',provincia_testo);
 			$("select#comuni").html(attendere);
 			$("select#comuni").attr("disabled", "disabled");
@@ -38,6 +39,7 @@ jQuery(document).ready(function($) {
         $("select#comuni").change(function(){
             var comuni_testo=$("select#comuni option:selected").text();
             $("select#comuni option:selected").attr('value',comuni_testo);
+			$("input.comu_mail").attr('value',comuni_testo+' ('+provincia_testo+')');
         });
         
 });	
