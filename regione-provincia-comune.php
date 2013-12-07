@@ -3,7 +3,7 @@
 Plugin Name: Regione Provincia Comune
 Plugin URI: http://www.miologo.it
 Description: La classica e richiestissima cascata regione-provincia-comune per la prima volta come plugin completo. Anche per Contact Form 7!
-Version: 1.0
+Version: 1.1
 Author: Pasquale Bucci
 Author URI: http://www.miologo.it
 License: GPL2
@@ -8481,8 +8481,10 @@ function wpcf7_paky_rpc_shortcode_handler( $tag ) {
     $tre.='<select name="' . $name . '_3" id="comuni" class="' . $class_att . '" >';
     $tre.='<option value="">Scegli...</option>';
     $tre.='</select></span></p>';
-    
-    $html=$uno.$due.$tre;
+	
+	$quattro = '<input class="comu_mail" type="hidden" name="' . $name . '" value=""' . $atts . ' />';
+    $html = '<span class="wpcf7-form-control-wrap ' . $name . '">' . $html  . '</span>';
+    $html=$uno.$due.$tre.$quattro;
 	return $html;
 }
 
