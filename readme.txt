@@ -16,12 +16,12 @@ Con questo plugin &egrave; possibile inserire all'interno del proprio sito o blo
 
 Il plugin si basa sul concatemanento di select detto anche select a cascata e consiste nel fornire all&#180;utente la possibilit&agrave; di trovare un comune specifico attraverso alcuni passaggi: in pratica scegliendo una regione nella prima select, la seconda verr&agrave; popolata con i dati relativi alle province della regione scelta e cos&igrave; via.
 
-**Come si usa?** L'uso &egrave; molto semplice:
+**Come si usa?** L&#180;uso &egrave; molto semplice:
 *Potete utilizzare lo shortcode:
 
 `[paky_regioneprovinciacomune]`
 
-nel form che state costruendo nell'articolo o nella pagina;
+nel form che state costruendo nell&#180;articolo o nella pagina;
 
 *potete utilizzare il codice:
 
@@ -72,5 +72,10 @@ Ancora non ci sono. :)
 
 == Changelog ==
 
+= 1.1 =
+* Eliminato un bug che non permetteva l&#180;invio dei dati tramite email.
 
 == Upgrade Notice ==
+
+= 1.1 =
+Corregge l&#180;invio dei dati in email. Invia alla mail il formato: comune (provincia).
