@@ -8,11 +8,11 @@ Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-La classica e richiestissima cascata regione-provincia-comune per la prima volta come plugin completo. Anche per Contact Form 7! (5 stelle per favore, se ti piace questo plugin!)
+La classica e richiestissima cascata regione-provincia-comune per la prima volta come plugin completo. Anche per Contact Form 7!
 
 == Description ==
 
-Con questo plugin &egrave; possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione/provincia/comune.
+Con questo plugin &egrave; possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione/provincia/comune. (5 stelle per favore, se ti piace questo plugin!)
 
 Il plugin si basa sul concatemanento di select detto anche select a cascata e consiste nel fornire all&#180;utente la possibilit&agrave; di trovare un comune specifico attraverso alcuni passaggi: in pratica scegliendo una regione nella prima select, la seconda verr&agrave; popolata con i dati relativi alle province della regione scelta e cos&igrave; via.
 
