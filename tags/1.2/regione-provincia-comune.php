@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Regione Provincia Comune
-Plugin URI: http://www.miologo.it
+Plugin URI: http://www.webartsdesign.it
 Description: La classica e richiestissima cascata regione-provincia-comune per la prima volta come plugin completo. Anche per Contact Form 7!
-Version: 1.1
+Version: 1.2
 Author: Pasquale Bucci
-Author URI: http://www.miologo.it
+Author URI: http://www.webartsdesign.it
 License: GPL2
 */
 /*  Copyright 2013  PASQUALE BUCCI  (email : paky.bucci@gmail.com)
