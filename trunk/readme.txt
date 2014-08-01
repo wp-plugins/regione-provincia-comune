@@ -3,16 +3,16 @@ Contributors: pasqualebucci
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PKMBP2CF3M8SQ
 Tags: italiano, regione, provincia, comune, regioni, province, comuni, cascata, menu a cascata, select concatenate, regione-provincia-comune, menu a tendina, seleziona comune, elenco, script, plugin, ajax, select, ita, contact form 7, contact form, form
 Requires at least: 3.4
-Tested up to: 3.6
-Stable tag: 1.0
+Tested up to: 3.9.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-La classica e richiestissima cascata regione-provincia-comune per la prima volta come plugin completo. Anche per Contact Form 7!
+La classica e richiestissima cascata regione-provincia-comune per la prima volta come plugin completo. Anche per Contact Form 7! (5 stelle per favore, se ti piace questo plugin!)
 
 == Description ==
 
-Con questo plugin &egrave; possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione/provincia/comune`.
+Con questo plugin &egrave; possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione/provincia/comune.
 
 Il plugin si basa sul concatemanento di select detto anche select a cascata e consiste nel fornire all&#180;utente la possibilit&agrave; di trovare un comune specifico attraverso alcuni passaggi: in pratica scegliendo una regione nella prima select, la seconda verr&agrave; popolata con i dati relativi alle province della regione scelta e cos&igrave; via.
 
@@ -25,7 +25,7 @@ nel form che state costruendo nell&#180;articolo o nella pagina;
 
 *potete utilizzare il codice:
 
-`<?php echo do_shortcode("[paky_regioneprovinciacomune]");`
+`<?php echo do_shortcode("[paky_regioneprovinciacomune]"); ?>`
 
 nel vostro template file;
 
@@ -34,6 +34,10 @@ nel vostro template file;
 nel form che state costruendo, generate il tag -Regione Povincia Comune- da Genera tag, aggiungetevi, se volete, una classe css, copiate e incollate il codice nel modulo alla sinistra.
 
 E' tutto!
+
+= Regione Provincia Comune ha bisogno del tuo supporto! =
+
+Se utilizzi Regione Provincia Comune e lo trovi utile, considera la possibilit&agrave; di effettuare una [__donazione__](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PKMBP2CF3M8SQ). La tua donazione aiuter&agrave; a migliorare lo sviluppo e il supporto agli utilizzatori di questo plugin.
 
 
 == Installation ==
@@ -72,10 +76,18 @@ Ancora non ci sono. :)
 
 == Changelog ==
 
+= 1.2 =
+* Corregge un bug in ajax quando si torna sulla select di una regione selezionata in precedenza.
+* Corregge le localit&agrave; con accento.
+
 = 1.1 =
 * Eliminato un bug che non permetteva l&#180;invio dei dati tramite email.
 
 == Upgrade Notice ==
+
+= 1.2 =
+Corregge un bug in ajax quando si torna sulla select di una regione selezionata in precedenza.
+Corregge le localit&agrave; con accento.
 
 = 1.1 =
 Corregge l&#180;invio dei dati in email. Invia alla mail il formato: comune (provincia).
