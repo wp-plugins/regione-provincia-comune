@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
 			
 			$.post(paky_ajax.ajaxurl, {action:'the_ajax_hook_comu',whatever:provincia}, function(data){
                 $("select#comuni").removeAttr("disabled"); 
-				$("select#comuni").html(data);	
+				$("select#comuni").html(data);
 			});
 		});	
         

@@ -2,9 +2,9 @@
 Contributors: pasqualebucci
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PKMBP2CF3M8SQ
 Tags: italiano, regione, provincia, comune, regioni, province, comuni, cascata, menu a cascata, select concatenate, regione-provincia-comune, menu a tendina, seleziona comune, elenco, script, plugin, ajax, select, ita, contact form 7, contact form, form
-Requires at least: 3.4
-Tested up to: 3.9.1
-Stable tag: 1.2
+Requires at least: 4.0
+Tested up to: 4.2.2
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,7 @@ nel vostro template file;
 
 *oppure, ancora pi&ugrave; comodo e funzionale, nel plugin Contact Form 7:
 
-nel form che state costruendo, generate il tag -Regione Povincia Comune- da Genera tag, aggiungetevi, se volete, una classe css, copiate e incollate il codice nel modulo alla sinistra.
+nel form che state costruendo, generate il tag -Regione Povincia Comune- da Genera tag, aggiungetevi, se volete, una classe css, copiate e incollate il codice nel modulo  e nel corpo della mail.
 
 E' tutto!
 
@@ -75,6 +75,13 @@ Ancora non ci sono. :)
 1. Genera il tag in Contact Form 7
 
 == Changelog ==
+
+= 2.0 =
+* Adatta il plugin alla nuova versione di Contact Form 7.
+* Corregge alcuni bug.
+* Migliora l&#180;inclusione script js.
+* Migliora la creazione delle tabelle nel database.
+* Include un file css per personalizzazioni.
 
 = 1.2 =
 * Corregge un bug in ajax quando si torna sulla select di una regione selezionata in precedenza.
